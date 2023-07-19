@@ -1,0 +1,19 @@
+{
+  "name": "Escopetree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "escopetree.js",
+  "scripts": {
+    "build": "browserify escopetree.js | uglifyjs -c > dist/escopetree.min.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "escope": "^4.0.0",
+    "esprima": "^4.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "uglify-js": "^3.17.4"
+  }
+}
